@@ -1,0 +1,322 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 900;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	background-size: 100%;
+	background: #43697c url('../img/bg.jpg') no-repeat center top / cover;
+	color: #fff;
+	padding-bottom: 426px;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.mail{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.nav{
+	padding-top: 90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer{
+	padding-top: 293px;
+	text-align: center;
+}
+
+h1{
+	font-size: 65px;
+	letter-spacing: 0.23em;
+	border-top: 3px solid #99b4be;
+	border-bottom: 3px solid #99b4be;
+	width: 640px;
+	padding: 14px 0;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 40px;
+	margin: 0;
+}
+h3{
+	color: #737373;
+	font-size: 18px;
+	text-transform: none;
+	margin-top: 40px;
+	margin-bottom: 33px;
+}
+
+.offer p {
+	font-size: 25px;
+	color: #c1d2d8;
+	letter-spacing: 0.1em;
+}
+
+.man{
+	background: url('../img/man.png') no-repeat center top;
+	width: 423px;
+	height: 583px;
+}
+.text{
+	width: 670px;
+}
+
+.text p{
+	color: #7f7f7f;
+	font-size: 16px;
+	line-height: 1.7em;
+}
+
+.btn{
+	background: #ff2b4a;
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	width: 202px;
+	text-decoration: none;
+	text-align: center;
+	padding: 12px 0;
+	margin-top: 60px;
+}
+
+.about .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about{
+	padding-top: 110px;
+
+}
+
+.heading{
+	padding-top: 112px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.heading p{
+	color: #6f6f6f;
+	margin-top: 25px;
+}
+.process{
+	background: #f6f6f6;
+}
+.steps li{
+	text-decoration: none;
+}
+
+.steps {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+
+}
+
+.steps li {
+	width: 280px;
+	height: 280px;
+	background: #10c6fc;
+	color: #fff;
+	margin-bottom: 120px;
+}
+
+.steps li:nth-child(2){
+	background: #835aeb;
+}
+
+.steps li:nth-child(3){
+	background: #002453;
+}
+
+.steps li:nth-child(4){
+	background: #ff2b4a;
+}
+
+.steps li div {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.portfolio__title{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+
+}
+
+.portfolio__heading{
+	text-align: center;
+	padding-top: 110px;
+}
+
+.portfolio__text{
+	padding-top: 40px;
+}
+
+.boxes__one{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.boxes__one li {
+	width: 280px;
+	height: 280px;
+	background: #10c6fc;
+	color: #fff;
+
+}
+
+.boxes__one li:nth-child(2){
+	background: #835aeb;
+}
+.boxes__one li:nth-child(3){
+	background: #002453;
+}
+.boxes__one li:nth-child(4){
+	background: #ff2b4a;
+}
+
+.boxes__two{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.boxes__two li {
+	width: 280px;
+	height: 280px;
+	background: #10c6fc;
+	color: #fff;
+	margin-bottom: 120px;
+}
+
+.boxes__two li:nth-child(1){
+	width: 578px;
+	background: #835aeb;
+}
+
+.boxes__two li:nth-child(2){
+	background: #002453;
+}
+.boxes__two li:nth-child(3){
+	background: #ff2b4a;
+}
+
+.footer{
+	background: #222222;
+	color: #919191;
+	font-size: 12px;
+	padding-top: 60px;
+	padding-bottom: 51px;
+}
+
+.socials a{
+	color: #919191;
+	font-size: 25px;
+	margin-right: 25px;
+}
+
+.socials li:last-child a{
+	margin-right: 0px;
+}
+
+.socials{
+	display: flex;
+	justify-content: center;
+}
+
+.socials a:hover{
+	color: #ff2b4a;
+}
+
+.footer-text{
+	text-align: center;
+}
+
+.my-name{
+	color: red;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 768px;
+	}
+	.man{
+		display: none;
+	}
+	.text {
+		width: auto;
+	}
+	.about {
+		padding-top: 74px;
+		padding-bottom: 110px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.container{
+		width: auto;
+		padding: 0 10px;
+	}
+	h1{
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 510px){
+	.steps {
+		flex-direction: column;
+	}
+	.steps li{
+		margin: 0 auto 30px;
+	}
+	
+	.boxes__one {
+		flex-direction: column;
+	}
+	.boxes__one li{
+		margin: 0 auto 30px;
+	}
+
+	.boxes__two {
+		flex-direction: column;
+	}
+	.boxes__two li:nth-child(1){
+		width: 280px;
+	}
+	.boxes__two li{
+		margin: 0 auto 30px;
+	}
+
+}
+
+@media screen and (max-width: 400px){
+	h1{
+		font-size: 42px;
+	}
+}
